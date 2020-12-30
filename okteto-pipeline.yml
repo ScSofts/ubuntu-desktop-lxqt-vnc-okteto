@@ -1,4 +1,4 @@
 deploy:
 #  - okteto build -t okteto.dev/v2ray-okteto:latest
-#  - okteto build -t dorowu/ubuntu-desktop-lxde-vnc:focal-lxqt
-  - kubectl apply -f k8s
+  - okteto build -t -p 6901:6901 consol/centos-xfce-vnc centos-xfce-vnc
+#  - kubectl apply -f k8s
