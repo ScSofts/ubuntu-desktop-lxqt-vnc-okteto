@@ -18,4 +18,4 @@ spec:
       - image: consol/ubuntu-xfce-vnc
         name: ubuntu-xfce-vnc
         ports:
-        - containerPort: 80
+        - containerPort: 6901
